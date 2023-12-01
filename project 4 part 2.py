@@ -1,7 +1,7 @@
-file = open(r'C:\Users\ARyan\Desktop\COllege stuff\CECS 174\projects\mobysmall.txt', 'a')
+file = open(r'projects\mobysmall.txt', 'a')
 file.write("\nTesting,testing...")
 file.close()
-file = open(r'C:\Users\ARyan\Desktop\COllege stuff\CECS 174\projects\mobysmall.txt')
+file = open(r'projects\mobysmall.txt')
 name = str(file.read())
 #name = '''
 #If you've got time to fantasize about a beautiful death,
